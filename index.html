@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiết Kế Website Chuyên Nghiệp | WebDesign Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">WebDesign Pro</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Trang Chủ</a></li>
+                <li><a href="#services">Dịch Vụ</a></li>
+                <li><a href="#tech">Công Nghệ</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">Về Chúng Tôi</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">🌙</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-animation"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">✨ Công nghệ hiện đại nhất 2024</div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Thiết Kế Website</span><br>
+                    Chuyên Nghiệp & Hiện Đại
+                </h1>
+                <p class="hero-subtitle">Tạo ra những website đẹp mắt, hiện đại với công nghệ mới nhất. React, Next.js, Vue.js và nhiều hơn nữa!</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="500">0</div>
+                        <div class="stat-label">+ Dự Án</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="98">0</div>
+                        <div class="stat-label">% Hài Lòng</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">+ Công Nghệ</div>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">🚀 Bắt Đầu Ngay</a>
+                    <a href="#portfolio" class="btn btn-secondary">📱 Xem Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech" class="tech-stack">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">🛠️ Công Nghệ</span>
+                <h2 class="section-title">Tech Stack Hiện Đại</h2>
+                <p class="section-subtitle">Chúng tôi sử dụng những công nghệ hàng đầu để tạo ra website tốt nhất</p>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">⚛️</div>
+                    <h3>React & Next.js</h3>
+                    <p>Framework hiện đại cho web app nhanh và mượt</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">💚</div>
+                    <h3>Vue.js & Nuxt</h3>
+                    <p>Progressive framework dễ học và mạnh mẽ</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🎨</div>
+                    <h3>Tailwind CSS</h3>
+                    <p>Utility-first CSS framework hiện đại</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🔷</div>
+                    <h3>TypeScript</h3>
+                    <p>Type-safe JavaScript cho code chất lượng</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">⚡</div>
+                    <h3>Node.js & Express</h3>
+                    <p>Backend mạnh mẽ và scalable</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🗄️</div>
+                    <h3>MongoDB & PostgreSQL</h3>
+                    <p>Database hiện đại và hiệu năng cao</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">☁️</div>
+                    <h3>AWS & Vercel</h3>
+                    <p>Cloud hosting nhanh và ổn định</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🔐</div>
+                    <h3>Firebase & Supabase</h3>
+                    <p>Backend-as-a-Service hiện đại</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">💼 Dịch Vụ</span>
+                <h2 class="section-title">Dịch Vụ Của Chúng Tôi</h2>
+                <p class="section-subtitle">Giải pháp toàn diện cho mọi nhu cầu web của bạn</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Thiết Kế UI/UX</h3>
+                    <p>Giao diện đẹp mắt, trải nghiệm người dùng tối ưu, dễ sử dụng và chuyên nghiệp</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Phát Triển Website</h3>
+                    <p>Website responsive, tối ưu tốc độ, tương thích mọi thiết bị và trình duyệt</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Thiết Kế Mobile</h3>
+                    <p>Website tối ưu cho mobile, app mobile đẹp mắt và hiệu quả</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3>SEO & Tối Ưu</h3>
+                    <p>Tối ưu hóa công cụ tìm kiếm, tăng khả năng hiển thị và traffic</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛠️</div>
+                    <h3>Bảo Trì & Hỗ Trợ</h3>
+                    <p>Dịch vụ bảo trì định kỳ, cập nhật và hỗ trợ kỹ thuật 24/7</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>E-commerce</h3>
+                    <p>Thiết kế website bán hàng online chuyên nghiệp, tích hợp thanh toán</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">🎯 Portfolio</span>
+                <h2 class="section-title">Dự Án Nổi Bật</h2>
+                <p class="section-subtitle">Những website chúng tôi đã tạo ra với công nghệ hiện đại</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tech">React • Next.js • Tailwind</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>E-commerce Platform</h3>
+                        <p>Website bán hàng với Next.js, tích hợp thanh toán và quản lý đơn hàng</p>
+                        <div class="portfolio-tags">
+                            <span>E-commerce</span>
+                            <span>Next.js</span>
+                            <span>Stripe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tech">Vue.js • Nuxt • TypeScript</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>SaaS Dashboard</h3>
+                        <p>Dashboard quản lý với Vue.js, real-time updates và analytics</p>
+                        <div class="portfolio-tags">
+                            <span>SaaS</span>
+                            <span>Vue.js</span>
+                            <span>Real-time</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tech">React • Node.js • MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Social Media App</h3>
+                        <p>Ứng dụng mạng xã hội với MERN stack, real-time chat</p>
+                        <div class="portfolio-tags">
+                            <span>Social</span>
+                            <span>MERN</span>
+                            <span>Socket.io</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">💬 Đánh Giá</span>
+                <h2 class="section-title">Khách Hàng Nói Gì</h2>
+                <p class="section-subtitle">Phản hồi từ những khách hàng đã tin tưởng chúng tôi</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Website được thiết kế rất chuyên nghiệp với React và Next.js. Tốc độ load cực nhanh và UX tuyệt vời!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨‍💼</div>
+                        <div class="author-info">
+                            <h4>Nguyễn Văn A</h4>
+                            <p>CEO, Startup Tech</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Đội ngũ rất chuyên nghiệp, sử dụng công nghệ mới nhất. Website của tôi giờ đây hiện đại và bắt mắt hơn rất nhiều!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👩‍💼</div>
+                        <div class="author-info">
+                            <h4>Trần Thị B</h4>
+                            <p>Founder, E-commerce Store</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Từ thiết kế đến code đều rất chất lượng. Họ sử dụng TypeScript và best practices, code rất clean và maintainable!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨‍💻</div>
+                        <div class="author-info">
+                            <h4>Lê Văn C</h4>
+                            <p>CTO, Tech Company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">💰 Bảng Giá</span>
+                <h2 class="section-title">Gói Dịch Vụ</h2>
+                <p class="section-subtitle">Chọn gói phù hợp với nhu cầu của bạn</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="pricing-price">
+                            <span class="price">15.000.000₫</span>
+                            <span class="period">/dự án</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Website responsive cơ bản</li>
+                        <li>✓ HTML/CSS/JavaScript</li>
+                        <li>✓ 5 trang web</li>
+                        <li>✓ Tối ưu SEO cơ bản</li>
+                        <li>✓ Hỗ trợ 3 tháng</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Chọn Gói</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Phổ Biến</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="pricing-price">
+                            <span class="price">35.000.000₫</span>
+                            <span class="period">/dự án</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Website với React/Next.js</li>
+                        <li>✓ TypeScript & Tailwind CSS</li>
+                        <li>✓ 10+ trang web</li>
+                        <li>✓ Tối ưu SEO nâng cao</li>
+                        <li>✓ CMS tích hợp</li>
+                        <li>✓ Hỗ trợ 6 tháng</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Chọn Gói</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="pricing-price">
+                            <span class="price">Liên hệ</span>
+                            <span class="period">/dự án</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Full-stack application</li>
+                        <li>✓ MERN/MEVN stack</li>
+                        <li>✓ Không giới hạn trang</li>
+                        <li>✓ API & Backend</li>
+                        <li>✓ Cloud hosting setup</li>
+                        <li>✓ Hỗ trợ 12 tháng</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Liên Hệ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Về Chúng Tôi</h2>
+                    <p>Chúng tôi là đội ngũ chuyên nghiệp với nhiều năm kinh nghiệm trong lĩnh vực thiết kế và phát triển website. Chúng tôi cam kết mang đến cho khách hàng những giải pháp web tốt nhất.</p>
+                    <ul class="about-features">
+                        <li>✓ Hơn 5 năm kinh nghiệm</li>
+                        <li>✓ Hơn 200+ dự án thành công</li>
+                        <li>✓ Đội ngũ chuyên nghiệp</li>
+                        <li>✓ Hỗ trợ 24/7</li>
+                        <li>✓ Giá cả hợp lý</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>🎯</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Liên Hệ Với Chúng Tôi</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Thông Tin Liên Hệ</h3>
+                    <div class="contact-item">
+                        <strong>📧 Email:</strong>
+                        <p>info@webdesignpro.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>📞 Điện Thoại:</strong>
+                        <p>0123 456 789</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>📍 Địa Chỉ:</strong>
+                        <p>123 Đường ABC, Quận XYZ, TP. Hồ Chí Minh</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Họ và Tên" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Số Điện Thoại" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Nội dung tin nhắn" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gửi Tin Nhắn</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WebDesign Pro</h3>
+                    <p>Thiết kế website chuyên nghiệp với công nghệ hiện đại nhất. React, Next.js, Vue.js và nhiều hơn nữa!</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘 Facebook</a>
+                        <a href="#" class="social-link">📷 Instagram</a>
+                        <a href="#" class="social-link">💼 LinkedIn</a>
+                        <a href="#" class="social-link">🐙 GitHub</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Dịch Vụ</h4>
+                    <ul>
+                        <li><a href="#services">Thiết Kế UI/UX</a></li>
+                        <li><a href="#services">Phát Triển Website</a></li>
+                        <li><a href="#services">Mobile App</a></li>
+                        <li><a href="#services">SEO & Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Công Nghệ</h4>
+                    <ul>
+                        <li><a href="#tech">React & Next.js</a></li>
+                        <li><a href="#tech">Vue.js & Nuxt</a></li>
+                        <li><a href="#tech">Node.js</a></li>
+                        <li><a href="#tech">TypeScript</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Liên Hệ</h4>
+                    <ul>
+                        <li>📧 info@webdesignpro.com</li>
+                        <li>📞 0123 456 789</li>
+                        <li>📍 TP. Hồ Chí Minh</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 WebDesign Pro. Tất cả quyền được bảo lưu. Made with ❤️ using modern tech</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
