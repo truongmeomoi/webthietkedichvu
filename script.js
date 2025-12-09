@@ -285,3 +285,24 @@ window.addEventListener('load', () => {
         document.body.style.opacity = '1';
     }, 100);
 });
+
+// Copy account number for payment section
+const copyButtons = document.querySelectorAll('.copy-account');
+copyButtons.forEach(btn => {
+    btn.addEventListener('click', async () => {
+        const account = btn.getAttribute('data-account');
+        try {
+            await navigator.clipboard.writeText(account);
+            showNotification(`✅ Đã copy số tài khoản: ${account}`, 'success');
+        } catch (err) {
+            // Fallback for older browsers
+            const textarea = document.createElement('textarea');
+            textarea.value = account;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            showNotification(`✅ Đã copy số tài khoản: ${account}`, 'success');
+        }
+    });
+});
